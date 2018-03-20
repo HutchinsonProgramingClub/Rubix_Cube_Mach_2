@@ -14,6 +14,7 @@ public class NewRobotMoveTry {
 		Delay.msDelay(10000);
 		Motor.A.stop();
 		Motor.B.stop();
-		//Gliderman Ep2
+		//Gliderman Ep4
+		//http://www.lejos.org/ev3/docs/
 	}
 }
