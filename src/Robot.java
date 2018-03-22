@@ -8,10 +8,4 @@ public class Robot {
 	public static RMIRegulatedMotor MotorC;
 	public static RMIRegulatedMotor MotorD;
 	
-	public static RMIRegulatedMotor MotorA1 = MotorA;
-	
-	public void Upper(){
-		MotorA.rotate(90);
-	}
-
 }
