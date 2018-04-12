@@ -1,16 +1,27 @@
-import lejos.hardware.motor.Motor;
+import lejos.hardware.Button;
+import lejos.remote.ev3.RMIRegulatedMotor;
 import lejos.utility.Delay;
 
 public class NewRobotMoveTry {
+	
+	public static Robot robot;
+	
+	public static RMIRegulatedMotor A = Robot.MotorA;
+	public static RMIRegulatedMotor B = Robot.MotorB;
+	public static RMIRegulatedMotor C = Robot.MotorC;
+	public static RMIRegulatedMotor D = Robot.MotorD;
+	
 	public static void main(String[] args) {
-		Motor.A.rotate(180);
-		Motor.B.rotate(180);
-		Delay.msDelay(5000);
-		Motor.A.rotate(60);
-		Motor.B.rotate(60);
+
+		while(Button.ESCAPE.isUp()) {
+		Robot.Right();
+		Delay.msDelay(20000);
+		}
+		
+		
+		
 		//Gliderman Ep4
 		//http://www.lejos.org/ev3/docs/
 		
-		//pilot.setTravelSpeed(3.0);
 	}
 }
