@@ -1,3 +1,10 @@
-/LightSensor.class
-/LightSensorTry.class
 /LightSensorFeedbackTest.class
+/LightSensorTry.class
+/MindStormsRobot.class
+/NewRobotMoveTry.class
+/Robot.class
+/DetectWall.class
+/DriveForward.class
+/IRSensor.class
+/TouchSensor.class
+/TouchSensorProgram.class

@@ -2,10 +2,8 @@ import java.util.ArrayList;
 
 import lejos.hardware.Brick;
 import lejos.hardware.BrickFinder;
-import lejos.hardware.motor.Motor;
 import lejos.hardware.port.Port;
 import lejos.hardware.sensor.EV3ColorSensor;
-import lejos.robotics.SampleProvider;
 import lejos.utility.Delay;
 
 public class LightSensorTry {
@@ -33,9 +31,9 @@ public class LightSensorTry {
 	    
 	    int SampleProvider = sensor.getColorID();
 	    //Next thing is probably not needed
-	    SampleProvider ColorIDMode = sensor.getColorIDMode();
+	    int ColorIDMode = sensor.getCurrentMode();
 	    if(SampleProvider == 6) {
-	    	Motor.B.rotate(30);
+	    	Robot.Right();
 	    }
 	    else {
 	    }
