@@ -1,3 +1,4 @@
+package R;
 import java.util.ArrayList;
 
 import lejos.hardware.Brick;
@@ -33,7 +34,7 @@ public class LightSensorTry {
 	    //Next thing is probably not needed
 	    int ColorIDMode = sensor.getCurrentMode();
 	    if(SampleProvider == 6) {
-	    	Robot.Right();
+	    	Robot.RightPrime();
 	    }
 	    else {
 	    }

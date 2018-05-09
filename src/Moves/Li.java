@@ -1,5 +1,10 @@
 package Moves;
 
-public class Li {
+import Subsystem.TurnFlip;
 
+public class Li {
+	
+	public Li() {
+		TurnFlip.TurnFlip("li");
+	}
 }
